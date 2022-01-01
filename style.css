@@ -12,6 +12,7 @@ body {
   background-color: #f7f3ed;
   font-family: "Open Sans", sans-serif;
   font-size: 20px;
+  line-height: 1.5;
 }
 
 .container {
@@ -113,14 +114,20 @@ body {
 .section-title {
   color: white;
   letter-spacing: 1px;
+  font-size: 24px;
 }
 
 .section-item {
-  line-height: 30px;
+  line-height: 2;
 }
 
 .section-link {
   color: #f7f3ed;
+}
+
+.section-pre {
+  padding: 0;
+  margin: 0;
 }
 
 .container-footer {
