@@ -17,6 +17,7 @@ body {
 
 .container {
   max-width: 1440px;
+  min-width: 410px;
   margin: 0 auto;
 }
 
@@ -152,4 +153,47 @@ body {
 .footer-rs:hover svg {
   stroke: #d56c50;
   fill: #d56c50;
+}
+
+@media (max-width: 900px) {
+  #summary,
+  #education {
+    background-color: #d56c50;
+  }
+
+  #skills,
+  #languages {
+    background-color: #39616a;
+  }
+
+  .container-main {
+    justify-content: center;
+  }
+
+  .section {
+    width: 90%;
+  }
+
+  .nav-list {
+    justify-content: center;
+    padding: 0;
+  }
+}
+
+@media (max-width: 736px) {
+  .profile-title .title {
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+}
+
+@media (max-width: 460px) {
+  body {
+    font-size: 18px;
+  }
+
+  .section-title,
+  .profile-title {
+    font-size: 20px;
+  }
 }
